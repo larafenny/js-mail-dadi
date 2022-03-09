@@ -23,6 +23,8 @@ for (let i=0; i<5; i++){
     }
 }
 
+console.log('***************** FINE ES 1 *************************');
+
 
 /*Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
@@ -36,3 +38,7 @@ Consigli del giorno:
 3. si ma noi cosa vogliamo fare?
 4. torniamo a scrivere in italiano
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
+
+console.log('***************** INIZIO ES 2 *************************');
+
+let random = Math.floor(Math.random() * 10);
