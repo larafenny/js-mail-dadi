@@ -13,7 +13,13 @@ let email=prompt('la tua email');
 // Creo array contenente email
 let mailArray=['a@mail.com', 'b@mail.com', 'c@mail.com', 'd@mail.com', 'e@mail.com','f@mail.com',];
 
-
+//verifiico che la mail inserita dall'utente sia presente nell'array
+for (let i=0; i<5; i++){
+    if (email === mailArray[i]){
+        console.log('evvai, la tua mail è nel nostro archivio');
+    }
+    
+}
 
 
 /*Gioco dei dadi
