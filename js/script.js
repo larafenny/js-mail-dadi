@@ -18,7 +18,9 @@ for (let i=0; i<5; i++){
     if (email === mailArray[i]){
         console.log('evvai, la tua mail è nel nostro archivio');
     }
-    
+    else{
+        console.log('no');
+    }
 }
 
 
