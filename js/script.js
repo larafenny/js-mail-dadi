@@ -1,5 +1,4 @@
 /*Mail
-Chiedi all’utente la sua email,
 controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo.
 Gioco dei dadi
@@ -17,3 +16,6 @@ Consigli del giorno:
 */
 
 console.log('js OK');
+
+// Chiedo all’utente la sua email
+let email=prompt('la tua email');
