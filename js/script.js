@@ -41,4 +41,5 @@ Consigli del giorno:
 
 console.log('***************** INIZIO ES 2 *************************');
 
-let random = Math.floor(Math.random() * 10);
+let randomHuman = Math.floor(Math.random() * 7);
+let randomPc = Math.floor(Math.random() * 7);
