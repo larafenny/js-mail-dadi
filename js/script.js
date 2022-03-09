@@ -31,15 +31,23 @@ Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 Prima di partire a scrivere codice poniamoci qualche domanda:
 Che ci sia un array da qualche parte?
-Se dobbiamo confrontare qualcosa che "cosa" ci serve?
-Consigli del giorno:
-1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-2. javascript non fa nulla da solo, dobbiamo dirgli noi cosa vogliamo fare
-3. si ma noi cosa vogliamo fare?
-4. torniamo a scrivere in italiano
-5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
+Se dobbiamo confrontare qualcosa che "cosa" ci serve?*/
 
 console.log('***************** INIZIO ES 2 *************************');
 
+//Generare un numero random da 1 a 6, sia per il giocatore sia per il computer
 let randomHuman = Math.floor(Math.random() * 7);
 let randomPc = Math.floor(Math.random() * 7);
+
+let randomHumanArray = [Math.floor(Math.random() * 7)];
+let randomPcArray = [Math.floor(Math.random() * 7)];
+
+if (randomHumanArray > randomPcArray){
+    console.log('vince giocatore');
+}
+else{
+    console.log('vince pc');
+}
+
+console.log('numero giocatore è ' + randomHumanArray);
+console.log('numero PC è ' + randomPcArray);
