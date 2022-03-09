@@ -1,7 +1,22 @@
-/*Mail
-controlla che sia nella lista di chi può accedere,
+/* GIOCO 1 - Mail
+1. Chiedo all’utente la sua email
+2. Controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo.
-Gioco dei dadi
+
+*/
+
+console.log('js OK');
+
+// Chiedo all’utente la sua email
+let email=prompt('la tua email');
+
+// Creo array contenente email
+let mailArray=['a@mail.com', 'b@mail.com', 'c@mail.com', 'd@mail.com', 'e@mail.com','f@mail.com',];
+
+
+
+
+/*Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 Prima di partire a scrivere codice poniamoci qualche domanda:
@@ -12,10 +27,4 @@ Consigli del giorno:
 2. javascript non fa nulla da solo, dobbiamo dirgli noi cosa vogliamo fare
 3. si ma noi cosa vogliamo fare?
 4. torniamo a scrivere in italiano
-5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
-*/
-
-console.log('js OK');
-
-// Chiedo all’utente la sua email
-let email=prompt('la tua email');
+5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
